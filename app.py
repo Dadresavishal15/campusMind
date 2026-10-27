@@ -43,13 +43,17 @@ st.set_page_config(
 
 @st.cache_data
 def load_feedback() -> pd.DataFrame:
-    """Load and cache the synthetic feedback CSV."""
+    """Load and cache the synthetic feedback CSV; generate if missing."""
     if not DATA_CSV.exists():
-        st.error(
-            f"Dataset not found at `{DATA_CSV}`. "
-            "Run `python data/generate_synthetic.py` first."
-        )
-        st.stop()
+        try:
+            from data.generate_synthetic import generate_dataset
+            DATA_CSV.parent.mkdir(parents=True, exist_ok=True)
+            df = generate_dataset(400)
+            df.to_csv(DATA_CSV, index=False)
+            return df
+        except Exception as exc:
+            st.error(f"Failed to auto-generate dataset: {exc}")
+            st.stop()
     return pd.read_csv(DATA_CSV)
 
 

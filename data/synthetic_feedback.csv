@@ -1,0 +1,401 @@
+feedback_id,department,semester,category,feedback_text,severity,date
+FB0001,CSE,5,hostel,Laundry facilities are insufficient for the number of residents in Block A.,low,2024-08-11
+FB0002,ECE,7,hostel,The hot water supply in Block C is unreliable during winter mornings.,low,2024-07-18
+FB0003,CE,1,sports,Sports achievements are celebrated in college events which motivates participation.,low,2025-06-02
+FB0004,CE,8,administration,The new digital student portal streamlines document requests significantly.,medium,2024-06-04
+FB0005,Arts,6,canteen,Hygiene standards in the food preparation area need urgent attention.,low,2024-09-19
+FB0006,ECE,2,wifi,"Network authentication resets too frequently, requiring repeated logins.",low,2024-12-01
+FB0007,MBA,1,wifi,Guest Wi-Fi for parents and visitors during events should be made available.,medium,2025-03-02
+FB0008,Arts,2,hostel,Security at the hostel gate is lax during late-night hours.,medium,2025-04-18
+FB0009,CE,2,wifi,Wi-Fi connectivity in the hostel is extremely slow during evening hours.,high,2024-09-25
+FB0010,ECE,4,library,Wi-Fi connectivity inside the library is poor near the far end of the hall.,low,2024-12-12
+FB0011,Science,6,library,The reading hall gets too crowded during exam time with no overflow space.,medium,2024-11-29
+FB0012,MBA,2,sports,There are no dedicated spaces for indoor games like table tennis or chess.,high,2024-08-27
+FB0013,ME,8,sports,Timings for sports facilities are too restrictive and do not suit academic schedules.,medium,2025-04-24
+FB0014,BBA,1,sports,Inter-department sports events should be organized more frequently.,low,2024-11-09
+FB0015,MBA,2,administration,Staff at the administrative counter are not always well-informed about procedures.,high,2025-06-03
+FB0016,CE,8,wifi,"Network authentication resets too frequently, requiring repeated logins.",high,2025-01-21
+FB0017,MBA,3,canteen,"The canteen is understaffed during peak hours, leading to long wait times.",high,2025-03-15
+FB0018,Arts,7,library,Extended library hours during exam weeks are greatly appreciated.,low,2024-08-10
+FB0019,ECE,1,mental_health,The college should increase the number of trained counsellors to reduce waiting times.,low,2024-08-18
+FB0020,Arts,2,canteen,"Tea and coffee counters open too late, which is inconvenient for early-morning students.",medium,2025-04-02
+FB0021,MBA,1,mental_health,Study circles organized by the wellness team have improved student morale.,high,2024-07-29
+FB0022,BBA,2,library,The online catalogue system is slow and often crashes during peak usage.,medium,2024-08-20
+FB0023,CSE,5,mental_health,The workload in certain departments is unsustainable and contributes to burnout.,low,2025-02-15
+FB0024,MBA,4,hostel,The hostel common room TV is broken and has not been repaired for two months.,medium,2025-06-26
+FB0025,CSE,6,canteen,"Tables are rarely wiped between uses, creating an unpleasant dining experience.",low,2024-07-28
+FB0026,MBA,4,wifi,Wi-Fi connectivity in the hostel is extremely slow during evening hours.,low,2025-03-18
+FB0027,ECE,8,hostel,Water pressure in bathrooms on upper floors is very low during peak hours.,low,2025-06-25
+FB0028,ME,8,canteen,"The canteen timing does not align with the lecture schedule, causing students to skip meals.",low,2024-10-14
+FB0029,CE,4,administration,"Administration staff turnover is high, leading to inconsistent guidance.",medium,2024-12-22
+FB0030,Science,8,wifi,Dead zones near the lab building make accessing online resources during practicals impossible.,low,2024-09-24
+FB0031,BBA,1,hostel,The guest room facility is helpful for parents visiting during exam periods.,high,2024-09-26
+FB0032,CSE,2,sports,The annual sports meet is well-organized but lacks sufficient prizes and recognition.,high,2024-07-01
+FB0033,ECE,1,sports,Yoga and fitness classes offered on weekends are popular and should be expanded.,medium,2024-07-07
+FB0034,MBA,8,sports,Inter-department sports events should be organized more frequently.,high,2024-08-07
+FB0035,CE,8,mental_health,Students returning after medical leave need better academic reintegration support.,medium,2024-09-06
+FB0036,ECE,7,hostel,The hostel warden is approachable and resolves complaints quickly.,medium,2024-12-28
+FB0037,CSE,2,mental_health,The counselling center wait times are too long; students in distress need faster access.,medium,2025-06-08
+FB0038,ECE,4,wifi,Internet speed in the academic block has improved noticeably after the upgrade.,low,2025-03-02
+FB0039,ME,7,mental_health,Exam stress workshops offered in the wellness center are not widely publicized.,medium,2025-01-23
+FB0040,ECE,8,sports,Floodlights on the basketball court need replacement for evening games.,high,2024-07-21
+FB0041,CSE,2,academics,The internal assessment weightage is disproportionate compared to end-semester exams.,low,2024-08-25
+FB0042,Science,8,administration,Staff at the administrative counter are not always well-informed about procedures.,medium,2024-07-01
+FB0043,Arts,1,canteen,"Tea and coffee counters open too late, which is inconvenient for early-morning students.",medium,2025-01-19
+FB0044,Arts,8,library,The reading hall gets too crowded during exam time with no overflow space.,low,2024-10-30
+FB0045,CSE,1,sports,The annual sports meet is well-organized but lacks sufficient prizes and recognition.,medium,2024-06-30
+FB0046,Science,3,academics,The lecture pace in advanced algorithms is too fast; students fall behind by week three.,high,2024-07-12
+FB0047,ECE,2,canteen,Cold drinks and packed snacks are overpriced compared to nearby shops.,low,2024-12-24
+FB0048,CE,1,hostel,The guest room facility is helpful for parents visiting during exam periods.,low,2025-01-01
+FB0049,MBA,4,wifi,The IT helpdesk response time for network issues exceeds 48 hours on average.,high,2024-11-08
+FB0050,MBA,7,sports,The badminton courts are well-maintained and available for booking online.,high,2025-04-27
+FB0051,Science,6,library,Orientation sessions for new students on library resources are not provided.,low,2024-06-05
+FB0052,ECE,2,mental_health,The workload in certain departments is unsustainable and contributes to burnout.,low,2025-02-15
+FB0053,ME,6,library,Orientation sessions for new students on library resources are not provided.,low,2024-10-04
+FB0054,MBA,3,wifi,Wi-Fi coverage in the open-air amphitheatre is excellent.,high,2025-05-27
+FB0055,CSE,5,library,Orientation sessions for new students on library resources are not provided.,high,2024-07-24
+FB0056,MBA,2,canteen,Special dietary needs such as gluten-free options are not catered for.,low,2025-06-16
+FB0057,MBA,5,canteen,Regional cuisine options introduced recently are a welcome addition.,low,2025-06-03
+FB0058,CE,5,wifi,Bandwidth allocation per device is too low to support video lectures.,medium,2024-10-07
+FB0059,ECE,7,academics,"Faculty office hours are rarely kept, making doubt resolution hard.",medium,2024-06-23
+FB0060,BBA,3,academics,Some theory classes lack practical demonstrations which affects understanding.,medium,2024-08-22
+FB0061,Arts,1,mental_health,Peer support programs are well-structured and have made a positive difference.,low,2025-05-20
+FB0062,CSE,6,canteen,Regional cuisine options introduced recently are a welcome addition.,high,2024-08-15
+FB0063,ME,1,administration,Online application for bonafide certificates is a great time-saving initiative.,medium,2024-06-21
+FB0064,CE,4,wifi,The IT helpdesk response time for network issues exceeds 48 hours on average.,low,2024-11-29
+FB0065,ME,4,administration,Timetable clashes are reported multiple times each semester without resolution.,low,2024-08-30
+FB0066,CSE,3,administration,"Administration staff turnover is high, leading to inconsistent guidance.",medium,2024-12-28
+FB0067,MBA,3,sports,Floodlights on the basketball court need replacement for evening games.,high,2024-07-26
+FB0068,CSE,8,administration,Staff at the administrative counter are not always well-informed about procedures.,low,2025-01-22
+FB0069,MBA,4,wifi,Internet speed in the academic block has improved noticeably after the upgrade.,low,2025-05-04
+FB0070,Arts,6,sports,The gym lacks proper ventilation and becomes uncomfortably hot in summer.,low,2024-10-21
+FB0071,Arts,6,wifi,Wi-Fi connectivity in the hostel is extremely slow during evening hours.,low,2024-10-12
+FB0072,MBA,1,canteen,Vegetarian options are limited and often sold out by lunchtime.,high,2025-01-09
+FB0073,BBA,7,wifi,Campus network downtime over the weekend is unacceptable for students with assignments due.,high,2024-07-30
+FB0074,CE,5,administration,"Fee payment portal crashes frequently near the deadline, causing anxiety.",high,2025-01-10
+FB0075,CE,6,academics,Lab sessions are well-organized and the equipment is adequate for the exercises.,low,2025-05-07
+FB0076,BBA,2,wifi,Guest Wi-Fi for parents and visitors during events should be made available.,medium,2025-02-15
+FB0077,Arts,6,library,Book renewal via the mobile app is convenient but the app crashes frequently.,high,2024-10-30
+FB0078,CE,7,canteen,Cold drinks and packed snacks are overpriced compared to nearby shops.,medium,2025-05-13
+FB0079,MBA,7,canteen,"The canteen timing does not align with the lecture schedule, causing students to skip meals.",low,2024-11-03
+FB0080,CE,7,library,Inter-library loan facility would be very useful for specialized research.,high,2025-04-07
+FB0081,Science,8,wifi,Wi-Fi coverage in the open-air amphitheatre is excellent.,high,2024-09-18
+FB0082,ME,2,mental_health,The campus counsellor is empathetic and keeps sessions strictly confidential.,high,2025-05-06
+FB0083,ECE,4,wifi,The IT helpdesk response time for network issues exceeds 48 hours on average.,medium,2024-09-24
+FB0084,ME,1,sports,The football ground is in poor condition with uneven turf and waterlogging after rain.,low,2025-01-30
+FB0085,Science,7,hostel,Pest control measures in the kitchen area are inadequate.,high,2025-03-22
+FB0086,Arts,8,sports,Timings for sports facilities are too restrictive and do not suit academic schedules.,low,2024-08-15
+FB0087,ECE,7,academics,The professor explains concepts clearly and uses real-world examples effectively.,low,2025-05-23
+FB0088,CSE,4,mental_health,Awareness materials about mental health resources are not visible enough across campus.,low,2025-01-20
+FB0089,Science,6,canteen,Food served during evening hours is often left over from lunch and not fresh.,medium,2025-04-10
+FB0090,Science,3,administration,"Administration staff turnover is high, leading to inconsistent guidance.",medium,2025-01-17
+FB0091,CE,5,library,Inter-library loan facility would be very useful for specialized research.,high,2025-02-04
+FB0092,MBA,8,sports,Sports equipment is not replaced regularly; some items are worn out.,high,2024-10-25
+FB0093,MBA,6,sports,Coaching sessions for cricket are helpful and the coach is knowledgeable.,high,2024-07-12
+FB0094,ME,4,canteen,"Tea and coffee counters open too late, which is inconvenient for early-morning students.",high,2024-08-18
+FB0095,ECE,7,sports,Timings for sports facilities are too restrictive and do not suit academic schedules.,medium,2025-03-05
+FB0096,Arts,1,mental_health,There is a stigma around using mental health services that the college should actively address.,medium,2024-12-17
+FB0097,Arts,8,academics,The lecture pace in advanced algorithms is too fast; students fall behind by week three.,medium,2024-10-31
+FB0098,Arts,4,administration,The scholarship disbursement process is opaque and lacks clear timelines.,low,2024-10-18
+FB0099,Science,1,administration,Grievance redressal committee meetings are not held regularly.,medium,2025-05-09
+FB0100,ME,8,administration,Parents have difficulty accessing progress reports online due to portal issues.,low,2025-04-15
+FB0101,Arts,1,academics,Tutorial sessions are helpful but scheduled at inconvenient times.,high,2025-01-06
+FB0102,Science,3,canteen,The canteen food quality has declined significantly over the past semester.,medium,2024-12-12
+FB0103,CE,8,wifi,The VPN policy restricts access to certain research databases students need.,medium,2025-06-25
+FB0104,MBA,7,administration,Online application for bonafide certificates is a great time-saving initiative.,low,2025-01-27
+FB0105,CSE,6,academics,The professor explains concepts clearly and uses real-world examples effectively.,high,2024-07-06
+FB0106,CSE,4,academics,The professor explains concepts clearly and uses real-world examples effectively.,low,2025-04-15
+FB0107,CE,3,canteen,"Tables are rarely wiped between uses, creating an unpleasant dining experience.",high,2024-07-29
+FB0108,Science,5,sports,Floodlights on the basketball court need replacement for evening games.,medium,2024-08-25
+FB0109,ME,5,hostel,Room cleanliness inspections are infrequent and hygiene standards have dropped.,high,2024-06-14
+FB0110,Arts,7,library,The air conditioning in the library is too cold and makes it difficult to study for long.,low,2024-07-09
+FB0111,ECE,5,sports,Yoga and fitness classes offered on weekends are popular and should be expanded.,high,2025-04-04
+FB0112,CSE,6,hostel,Security at the hostel gate is lax during late-night hours.,medium,2025-05-05
+FB0113,ECE,6,wifi,Wi-Fi connectivity in the hostel is extremely slow during evening hours.,medium,2025-02-06
+FB0114,Arts,6,hostel,Noise levels after 10 PM in the corridors disturb students who sleep early.,medium,2025-05-29
+FB0115,Arts,3,canteen,The canteen app for pre-ordering food is a great initiative that saves time.,high,2025-04-30
+FB0116,Science,8,library,Book renewal via the mobile app is convenient but the app crashes frequently.,high,2025-03-31
+FB0117,BBA,4,library,Wi-Fi connectivity inside the library is poor near the far end of the hall.,low,2024-10-21
+FB0118,CE,8,mental_health,Anonymous reporting system for mental health concerns would encourage more students to seek help.,high,2025-05-09
+FB0119,BBA,1,administration,The scholarship disbursement process is opaque and lacks clear timelines.,medium,2024-09-02
+FB0120,CE,6,mental_health,Students returning after medical leave need better academic reintegration support.,medium,2024-11-22
+FB0121,MBA,1,library,New arrivals section is well-curated and updated regularly.,low,2024-07-14
+FB0122,Arts,8,sports,Sports achievements are celebrated in college events which motivates participation.,low,2025-05-20
+FB0123,Science,8,mental_health,Students returning after medical leave need better academic reintegration support.,low,2024-07-18
+FB0124,CE,7,library,The air conditioning in the library is too cold and makes it difficult to study for long.,low,2024-11-04
+FB0125,Science,6,wifi,"Network authentication resets too frequently, requiring repeated logins.",high,2025-03-09
+FB0126,BBA,8,wifi,Frequent disconnections during online exams are a serious concern for fairness.,medium,2024-10-07
+FB0127,ECE,4,sports,Coaching sessions for cricket are helpful and the coach is knowledgeable.,low,2025-06-16
+FB0128,CE,4,canteen,The canteen app for pre-ordering food is a great initiative that saves time.,medium,2024-10-20
+FB0129,ECE,4,library,The online catalogue system is slow and often crashes during peak usage.,low,2024-12-02
+FB0130,MBA,1,canteen,The canteen app for pre-ordering food is a great initiative that saves time.,high,2024-08-04
+FB0131,CSE,1,library,New arrivals section is well-curated and updated regularly.,medium,2025-05-24
+FB0132,Science,2,canteen,Staff at the canteen are generally courteous and helpful.,low,2025-03-21
+FB0133,Science,8,library,The printing facility in the library is unreliable and expensive.,medium,2024-09-03
+FB0134,MBA,8,academics,Tutorial sessions are helpful but scheduled at inconvenient times.,low,2024-12-23
+FB0135,ECE,1,mental_health,Exam stress workshops offered in the wellness center are not widely publicized.,low,2025-03-16
+FB0136,ECE,4,library,Digital journal subscriptions are insufficient and many research papers are behind paywalls.,high,2025-06-27
+FB0137,CE,7,administration,The scholarship disbursement process is opaque and lacks clear timelines.,medium,2024-10-31
+FB0138,MBA,1,administration,The new digital student portal streamlines document requests significantly.,high,2024-07-21
+FB0139,CE,5,sports,Equipment booking system for the gym is disorganized and often causes conflicts.,low,2024-08-20
+FB0140,ME,2,sports,The badminton courts are well-maintained and available for booking online.,low,2024-12-27
+FB0141,Science,5,mental_health,The counselling center wait times are too long; students in distress need faster access.,low,2024-10-26
+FB0142,Science,2,library,Noise levels in certain sections of the library are distracting.,low,2024-10-14
+FB0143,Arts,2,sports,Sports achievements are celebrated in college events which motivates participation.,low,2025-04-28
+FB0144,MBA,3,canteen,Vegetarian options are limited and often sold out by lunchtime.,low,2024-08-24
+FB0145,MBA,8,library,Digital journal subscriptions are insufficient and many research papers are behind paywalls.,medium,2025-05-19
+FB0146,Arts,5,library,New arrivals section is well-curated and updated regularly.,high,2025-02-08
+FB0147,ECE,1,mental_health,Awareness materials about mental health resources are not visible enough across campus.,medium,2025-06-12
+FB0148,MBA,1,wifi,Dead zones near the lab building make accessing online resources during practicals impossible.,low,2025-05-12
+FB0149,MBA,1,academics,Group project coordination is difficult due to lack of shared workspaces.,low,2025-01-27
+FB0150,MBA,3,mental_health,Anonymous reporting system for mental health concerns would encourage more students to seek help.,medium,2025-04-22
+FB0151,ECE,8,mental_health,A dedicated quiet room for students experiencing anxiety would be very beneficial.,medium,2024-11-18
+FB0152,ECE,3,wifi,The VPN policy restricts access to certain research databases students need.,medium,2025-05-22
+FB0153,MBA,7,mental_health,The college should increase the number of trained counsellors to reduce waiting times.,high,2024-06-19
+FB0154,ECE,6,mental_health,The campus counsellor is empathetic and keeps sessions strictly confidential.,medium,2024-07-30
+FB0155,CSE,8,administration,Grievance redressal committee meetings are not held regularly.,low,2024-09-05
+FB0156,Science,8,wifi,"Upload speeds are significantly lower than download speeds, affecting online submissions.",low,2024-09-13
+FB0157,ME,5,library,The printing facility in the library is unreliable and expensive.,high,2025-02-04
+FB0158,CSE,4,hostel,Hostel fees were increased without adequate notice or justification.,low,2024-11-07
+FB0159,Arts,2,academics,The professor explains concepts clearly and uses real-world examples effectively.,low,2025-01-23
+FB0160,ME,8,hostel,Pest control measures in the kitchen area are inadequate.,high,2024-10-28
+FB0161,Arts,8,library,The printing facility in the library is unreliable and expensive.,low,2025-01-20
+FB0162,Arts,4,canteen,Special dietary needs such as gluten-free options are not catered for.,high,2025-02-16
+FB0163,ECE,5,canteen,Food served during evening hours is often left over from lunch and not fresh.,medium,2024-11-22
+FB0164,CSE,5,library,The air conditioning in the library is too cold and makes it difficult to study for long.,medium,2025-03-28
+FB0165,ME,8,mental_health,The workload in certain departments is unsustainable and contributes to burnout.,medium,2024-11-24
+FB0166,Arts,8,wifi,"Streaming platforms are completely blocked, preventing use of educational video content.",medium,2024-09-05
+FB0167,Arts,4,sports,Yoga and fitness classes offered on weekends are popular and should be expanded.,medium,2024-06-23
+FB0168,Science,7,wifi,"Network authentication resets too frequently, requiring repeated logins.",high,2025-04-30
+FB0169,Science,1,canteen,Prices for basic meals have increased without a corresponding quality improvement.,high,2025-03-30
+FB0170,ECE,8,wifi,Dead zones near the lab building make accessing online resources during practicals impossible.,high,2025-01-20
+FB0171,ME,7,academics,"Faculty office hours are rarely kept, making doubt resolution hard.",high,2024-08-19
+FB0172,Science,5,hostel,The hostel warden is approachable and resolves complaints quickly.,high,2025-05-21
+FB0173,ECE,6,administration,Timetable clashes are reported multiple times each semester without resolution.,high,2025-03-01
+FB0174,BBA,8,administration,Timetable clashes are reported multiple times each semester without resolution.,high,2024-06-19
+FB0175,CE,5,hostel,Laundry facilities are insufficient for the number of residents in Block A.,high,2024-07-17
+FB0176,ECE,2,administration,The scholarship disbursement process is opaque and lacks clear timelines.,low,2025-05-22
+FB0177,CSE,1,library,Extended library hours during exam weeks are greatly appreciated.,low,2024-10-29
+FB0178,BBA,7,wifi,The campus network blocks many educational websites without justification.,low,2025-02-27
+FB0179,ME,3,administration,The administration office has limited working hours that conflict with class schedules.,low,2025-04-09
+FB0180,CE,8,administration,Parents have difficulty accessing progress reports online due to portal issues.,high,2024-08-13
+FB0181,Science,5,sports,The swimming pool was closed for maintenance for three months with no alternative arrangement.,medium,2025-05-08
+FB0182,Science,5,academics,Some theory classes lack practical demonstrations which affects understanding.,high,2024-08-20
+FB0183,Science,6,hostel,The guest room facility is helpful for parents visiting during exam periods.,medium,2025-04-24
+FB0184,MBA,8,administration,Timetable clashes are reported multiple times each semester without resolution.,medium,2024-09-10
+FB0185,Science,2,administration,Staff at the administrative counter are not always well-informed about procedures.,medium,2025-03-20
+FB0186,MBA,5,wifi,Wi-Fi connectivity in the hostel is extremely slow during evening hours.,high,2024-12-20
+FB0187,CSE,1,library,Orientation sessions for new students on library resources are not provided.,high,2025-06-17
+FB0188,MBA,4,mental_health,Anonymous reporting system for mental health concerns would encourage more students to seek help.,medium,2024-09-21
+FB0189,MBA,3,sports,Equipment booking system for the gym is disorganized and often causes conflicts.,low,2025-04-18
+FB0190,MBA,8,academics,The lecture pace in advanced algorithms is too fast; students fall behind by week three.,high,2024-12-04
+FB0191,ECE,5,canteen,The new menu introduced this semester offers better variety for different diets.,high,2024-12-30
+FB0192,CE,3,canteen,Food served during evening hours is often left over from lunch and not fresh.,high,2024-12-05
+FB0193,ME,5,library,Orientation sessions for new students on library resources are not provided.,medium,2024-10-30
+FB0194,ECE,8,wifi,Dead zones near the lab building make accessing online resources during practicals impossible.,low,2025-06-22
+FB0195,Arts,6,sports,Sports equipment is not replaced regularly; some items are worn out.,medium,2024-06-08
+FB0196,ECE,8,library,Extended library hours during exam weeks are greatly appreciated.,high,2025-06-19
+FB0197,Arts,6,library,Digital journal subscriptions are insufficient and many research papers are behind paywalls.,high,2024-09-28
+FB0198,CSE,6,mental_health,Awareness materials about mental health resources are not visible enough across campus.,high,2024-09-22
+FB0199,Science,5,hostel,Noise levels after 10 PM in the corridors disturb students who sleep early.,medium,2024-07-30
+FB0200,CSE,1,canteen,Hygiene standards in the food preparation area need urgent attention.,medium,2024-07-30
+FB0201,CE,3,hostel,Power outages in the hostel are frequent and the backup generator is slow to start.,medium,2024-12-07
+FB0202,ME,7,administration,Re-evaluation applications are unnecessarily expensive and discourage students.,low,2025-02-06
+FB0203,MBA,1,administration,"Administration staff turnover is high, leading to inconsistent guidance.",medium,2024-09-20
+FB0204,Science,4,mental_health,The college should increase the number of trained counsellors to reduce waiting times.,medium,2024-07-21
+FB0205,BBA,1,wifi,"Network authentication resets too frequently, requiring repeated logins.",medium,2024-09-06
+FB0206,Science,2,hostel,Noise levels after 10 PM in the corridors disturb students who sleep early.,low,2025-04-25
+FB0207,CSE,6,academics,The professor explains concepts clearly and uses real-world examples effectively.,low,2025-03-17
+FB0208,ECE,4,sports,There are no dedicated spaces for indoor games like table tennis or chess.,low,2024-09-28
+FB0209,ME,1,wifi,Frequent disconnections during online exams are a serious concern for fairness.,low,2024-08-06
+FB0210,ME,2,library,Noise levels in certain sections of the library are distracting.,low,2024-08-07
+FB0211,BBA,4,academics,Online resources shared by the faculty are very useful for self-study.,medium,2024-06-09
+FB0212,MBA,1,canteen,Prices for basic meals have increased without a corresponding quality improvement.,high,2025-01-02
+FB0213,ECE,8,hostel,Beds and mattresses in the new wing are comfortable and recently replaced.,medium,2025-02-18
+FB0214,Science,4,hostel,The guest room facility is helpful for parents visiting during exam periods.,low,2025-06-08
+FB0215,Science,1,library,The library's collection of reference books in mechanical engineering is outdated.,medium,2024-12-23
+FB0216,ECE,8,administration,"Administration staff turnover is high, leading to inconsistent guidance.",medium,2024-07-08
+FB0217,BBA,3,hostel,Room cleanliness inspections are infrequent and hygiene standards have dropped.,low,2024-10-19
+FB0218,Arts,5,wifi,Wi-Fi coverage in the open-air amphitheatre is excellent.,high,2025-04-06
+FB0219,ECE,2,administration,Timetable clashes are reported multiple times each semester without resolution.,high,2025-04-30
+FB0220,Arts,8,sports,There is no provision for students with physical disabilities to participate in sports.,low,2024-12-29
+FB0221,Science,7,wifi,"Network authentication resets too frequently, requiring repeated logins.",high,2024-07-19
+FB0222,Arts,6,wifi,The IT helpdesk response time for network issues exceeds 48 hours on average.,medium,2024-12-09
+FB0223,Science,2,canteen,Vegetarian options are limited and often sold out by lunchtime.,low,2024-07-18
+FB0224,ECE,6,administration,Emergency fund assistance for economically challenged students needs a simpler process.,low,2025-03-12
+FB0225,BBA,2,academics,Lab sessions are well-organized and the equipment is adequate for the exercises.,medium,2025-05-07
+FB0226,CSE,5,administration,The new digital student portal streamlines document requests significantly.,medium,2024-11-28
+FB0227,CE,3,hostel,Noise levels after 10 PM in the corridors disturb students who sleep early.,medium,2024-09-23
+FB0228,BBA,6,hostel,Room cleanliness inspections are infrequent and hygiene standards have dropped.,medium,2025-03-21
+FB0229,Arts,1,sports,There are no dedicated spaces for indoor games like table tennis or chess.,high,2025-05-22
+FB0230,CSE,3,library,The online catalogue system is slow and often crashes during peak usage.,high,2025-06-26
+FB0231,BBA,6,library,The library's collection of reference books in mechanical engineering is outdated.,low,2024-08-13
+FB0232,ECE,3,administration,"Administration staff turnover is high, leading to inconsistent guidance.",high,2024-06-16
+FB0233,CE,7,hostel,Power outages in the hostel are frequent and the backup generator is slow to start.,medium,2024-11-22
+FB0234,BBA,5,canteen,The canteen app for pre-ordering food is a great initiative that saves time.,medium,2025-03-18
+FB0235,CSE,3,hostel,The hostel common room TV is broken and has not been repaired for two months.,high,2024-06-26
+FB0236,MBA,8,hostel,Noise levels after 10 PM in the corridors disturb students who sleep early.,medium,2025-02-04
+FB0237,Arts,5,mental_health,There is a stigma around using mental health services that the college should actively address.,high,2024-07-29
+FB0238,Arts,2,wifi,Frequent disconnections during online exams are a serious concern for fairness.,high,2025-05-14
+FB0239,MBA,1,mental_health,There is a stigma around using mental health services that the college should actively address.,medium,2025-04-03
+FB0240,CSE,4,academics,"Assignment deadlines cluster at the end of the semester, causing excessive stress.",low,2025-06-28
+FB0241,MBA,5,canteen,The new menu introduced this semester offers better variety for different diets.,low,2024-06-04
+FB0242,Arts,3,mental_health,Exam stress workshops offered in the wellness center are not widely publicized.,medium,2025-02-28
+FB0243,BBA,2,sports,Timings for sports facilities are too restrictive and do not suit academic schedules.,high,2024-06-22
+FB0244,CSE,8,administration,Parents have difficulty accessing progress reports online due to portal issues.,low,2024-11-08
+FB0245,Arts,7,administration,Online application for bonafide certificates is a great time-saving initiative.,low,2024-12-25
+FB0246,BBA,3,academics,Group project coordination is difficult due to lack of shared workspaces.,high,2025-01-22
+FB0247,ECE,7,wifi,The campus network firewall settings should be reviewed to allow legitimate academic tools.,low,2024-10-03
+FB0248,Arts,2,administration,Grievance redressal committee meetings are not held regularly.,medium,2025-06-17
+FB0249,CE,6,wifi,"Upload speeds are significantly lower than download speeds, affecting online submissions.",low,2024-07-10
+FB0250,CE,6,hostel,The hostel warden is approachable and resolves complaints quickly.,high,2025-04-27
+FB0251,CE,2,canteen,Prices for basic meals have increased without a corresponding quality improvement.,medium,2024-09-10
+FB0252,ME,2,canteen,Prices for basic meals have increased without a corresponding quality improvement.,high,2025-02-08
+FB0253,Science,6,mental_health,The college should increase the number of trained counsellors to reduce waiting times.,high,2024-11-09
+FB0254,Science,2,canteen,"Tables are rarely wiped between uses, creating an unpleasant dining experience.",medium,2025-04-20
+FB0255,MBA,1,library,Extended library hours during exam weeks are greatly appreciated.,high,2024-07-08
+FB0256,Science,8,library,The library's collection of reference books in mechanical engineering is outdated.,low,2024-12-06
+FB0257,ECE,2,library,Group study rooms in the library are in high demand and should be increased.,high,2025-02-15
+FB0258,Science,1,administration,The scholarship disbursement process is opaque and lacks clear timelines.,high,2025-04-30
+FB0259,BBA,8,sports,Sports achievements are celebrated in college events which motivates participation.,low,2024-07-02
+FB0260,ECE,6,mental_health,Meditation and mindfulness sessions should be made part of the regular weekly schedule.,low,2025-02-14
+FB0261,CSE,4,canteen,The canteen app for pre-ordering food is a great initiative that saves time.,medium,2025-01-11
+FB0262,BBA,6,canteen,Special dietary needs such as gluten-free options are not catered for.,medium,2024-12-16
+FB0263,BBA,1,administration,Emergency fund assistance for economically challenged students needs a simpler process.,high,2025-04-28
+FB0264,ECE,6,wifi,Dead zones near the lab building make accessing online resources during practicals impossible.,high,2025-05-14
+FB0265,MBA,5,administration,"Administration staff turnover is high, leading to inconsistent guidance.",high,2025-04-05
+FB0266,BBA,2,canteen,Regional cuisine options introduced recently are a welcome addition.,high,2024-08-12
+FB0267,MBA,7,wifi,The campus network blocks many educational websites without justification.,high,2025-05-29
+FB0268,MBA,7,hostel,Noise levels after 10 PM in the corridors disturb students who sleep early.,medium,2024-08-05
+FB0269,Arts,6,hostel,The hot water supply in Block C is unreliable during winter mornings.,medium,2024-11-06
+FB0270,CE,6,canteen,Food served during evening hours is often left over from lunch and not fresh.,medium,2024-09-07
+FB0271,ME,3,sports,Sports equipment is not replaced regularly; some items are worn out.,medium,2024-07-22
+FB0272,BBA,3,academics,Online resources shared by the faculty are very useful for self-study.,medium,2024-08-18
+FB0273,ME,3,canteen,The canteen app for pre-ordering food is a great initiative that saves time.,medium,2024-06-23
+FB0274,BBA,4,administration,The scholarship disbursement process is opaque and lacks clear timelines.,high,2024-10-24
+FB0275,CE,4,mental_health,The campus counsellor is empathetic and keeps sessions strictly confidential.,medium,2024-09-08
+FB0276,Science,8,wifi,"Upload speeds are significantly lower than download speeds, affecting online submissions.",medium,2024-12-13
+FB0277,ME,4,administration,Emergency fund assistance for economically challenged students needs a simpler process.,high,2024-08-10
+FB0278,CSE,8,library,Wi-Fi connectivity inside the library is poor near the far end of the hall.,medium,2025-03-11
+FB0279,ECE,5,hostel,Room cleanliness inspections are infrequent and hygiene standards have dropped.,low,2024-10-18
+FB0280,ME,7,mental_health,Peer support programs are well-structured and have made a positive difference.,low,2025-01-17
+FB0281,CSE,7,wifi,Wi-Fi connectivity in the hostel is extremely slow during evening hours.,medium,2025-02-13
+FB0282,CE,7,wifi,Dead zones near the lab building make accessing online resources during practicals impossible.,medium,2024-09-23
+FB0283,BBA,2,academics,"Faculty office hours are rarely kept, making doubt resolution hard.",high,2025-04-29
+FB0284,ME,3,wifi,Wi-Fi connectivity in the hostel is extremely slow during evening hours.,medium,2025-01-28
+FB0285,Science,8,canteen,Regional cuisine options introduced recently are a welcome addition.,low,2024-07-11
+FB0286,MBA,4,academics,"Faculty office hours are rarely kept, making doubt resolution hard.",low,2025-03-08
+FB0287,ECE,5,administration,Staff at the administrative counter are not always well-informed about procedures.,medium,2024-08-02
+FB0288,CE,7,academics,Some theory classes lack practical demonstrations which affects understanding.,high,2025-01-21
+FB0289,ECE,8,hostel,The guest room facility is helpful for parents visiting during exam periods.,high,2024-06-09
+FB0290,ME,5,sports,Timings for sports facilities are too restrictive and do not suit academic schedules.,low,2025-04-11
+FB0291,CE,7,wifi,The campus network blocks many educational websites without justification.,high,2025-05-09
+FB0292,BBA,2,hostel,Security at the hostel gate is lax during late-night hours.,high,2025-02-15
+FB0293,Arts,8,academics,The lecture pace in advanced algorithms is too fast; students fall behind by week three.,high,2024-12-16
+FB0294,MBA,1,wifi,The VPN policy restricts access to certain research databases students need.,low,2024-11-24
+FB0295,ECE,6,sports,The badminton courts are well-maintained and available for booking online.,low,2024-11-28
+FB0296,ME,8,wifi,Guest Wi-Fi for parents and visitors during events should be made available.,medium,2025-04-20
+FB0297,ME,2,canteen,The canteen app for pre-ordering food is a great initiative that saves time.,medium,2024-06-19
+FB0298,CE,1,library,Inter-library loan facility would be very useful for specialized research.,low,2024-06-22
+FB0299,MBA,7,wifi,The campus network firewall settings should be reviewed to allow legitimate academic tools.,high,2025-01-29
+FB0300,CSE,4,library,The online catalogue system is slow and often crashes during peak usage.,medium,2024-06-25
+FB0301,MBA,2,wifi,"Upload speeds are significantly lower than download speeds, affecting online submissions.",medium,2025-01-10
+FB0302,Science,7,administration,Communication from the administration regarding schedule changes is often last-minute.,low,2025-02-10
+FB0303,BBA,5,mental_health,Students returning after medical leave need better academic reintegration support.,low,2025-06-08
+FB0304,ECE,7,administration,The new digital student portal streamlines document requests significantly.,low,2025-03-07
+FB0305,BBA,2,library,Digital journal subscriptions are insufficient and many research papers are behind paywalls.,medium,2025-05-05
+FB0306,MBA,8,library,Group study rooms in the library are in high demand and should be increased.,high,2025-01-05
+FB0307,Science,6,canteen,"Tables are rarely wiped between uses, creating an unpleasant dining experience.",low,2025-06-08
+FB0308,Arts,5,wifi,The IT helpdesk response time for network issues exceeds 48 hours on average.,low,2024-07-09
+FB0309,BBA,3,administration,"Fee payment portal crashes frequently near the deadline, causing anxiety.",low,2025-04-08
+FB0310,CSE,3,mental_health,Peer support programs are well-structured and have made a positive difference.,low,2025-04-27
+FB0311,BBA,7,wifi,Campus network downtime over the weekend is unacceptable for students with assignments due.,low,2025-04-06
+FB0312,Science,6,canteen,The new menu introduced this semester offers better variety for different diets.,medium,2025-06-26
+FB0313,ME,6,hostel,Power outages in the hostel are frequent and the backup generator is slow to start.,medium,2025-04-29
+FB0314,CE,2,library,The library's collection of reference books in mechanical engineering is outdated.,high,2024-09-04
+FB0315,Arts,2,mental_health,The campus counsellor is empathetic and keeps sessions strictly confidential.,medium,2025-05-27
+FB0316,CE,5,mental_health,Meditation and mindfulness sessions should be made part of the regular weekly schedule.,medium,2024-09-11
+FB0317,ME,2,hostel,Beds and mattresses in the new wing are comfortable and recently replaced.,low,2025-06-01
+FB0318,ECE,6,mental_health,Study circles organized by the wellness team have improved student morale.,medium,2025-05-30
+FB0319,MBA,5,hostel,Water pressure in bathrooms on upper floors is very low during peak hours.,low,2025-05-31
+FB0320,BBA,4,canteen,Vegetarian options are limited and often sold out by lunchtime.,low,2024-08-11
+FB0321,Science,1,sports,Coaching sessions for cricket are helpful and the coach is knowledgeable.,high,2025-03-21
+FB0322,Science,3,wifi,Campus network downtime over the weekend is unacceptable for students with assignments due.,low,2024-07-04
+FB0323,Arts,8,library,New arrivals section is well-curated and updated regularly.,medium,2025-06-29
+FB0324,ECE,3,administration,Communication from the administration regarding schedule changes is often last-minute.,high,2024-07-08
+FB0325,Science,6,mental_health,Exam stress workshops offered in the wellness center are not widely publicized.,high,2025-04-24
+FB0326,ME,7,canteen,"The canteen timing does not align with the lecture schedule, causing students to skip meals.",low,2024-08-03
+FB0327,MBA,3,canteen,Prices for basic meals have increased without a corresponding quality improvement.,medium,2025-05-30
+FB0328,BBA,5,sports,Yoga and fitness classes offered on weekends are popular and should be expanded.,low,2024-10-07
+FB0329,MBA,3,sports,Equipment booking system for the gym is disorganized and often causes conflicts.,medium,2025-04-11
+FB0330,ME,3,hostel,The hostel common room TV is broken and has not been repaired for two months.,high,2025-04-16
+FB0331,CSE,1,wifi,Dead zones near the lab building make accessing online resources during practicals impossible.,low,2025-04-25
+FB0332,CE,7,library,Group study rooms in the library are in high demand and should be increased.,high,2024-06-16
+FB0333,MBA,5,mental_health,Faculty should receive training on recognizing signs of student distress.,low,2025-05-17
+FB0334,MBA,8,administration,Document verification for scholarship applications takes too long.,high,2024-07-01
+FB0335,Science,7,canteen,"Tables are rarely wiped between uses, creating an unpleasant dining experience.",medium,2024-09-13
+FB0336,ME,6,wifi,The campus network firewall settings should be reviewed to allow legitimate academic tools.,high,2024-11-11
+FB0337,Arts,3,wifi,"Upload speeds are significantly lower than download speeds, affecting online submissions.",medium,2025-02-19
+FB0338,BBA,4,hostel,Beds and mattresses in the new wing are comfortable and recently replaced.,low,2024-10-15
+FB0339,CE,3,mental_health,Peer support programs are well-structured and have made a positive difference.,low,2024-10-27
+FB0340,Arts,4,administration,Timetable clashes are reported multiple times each semester without resolution.,low,2024-11-15
+FB0341,CE,3,wifi,Wi-Fi coverage in the open-air amphitheatre is excellent.,high,2025-01-26
+FB0342,MBA,8,mental_health,The counselling center wait times are too long; students in distress need faster access.,low,2024-12-19
+FB0343,CE,4,mental_health,Anonymous reporting system for mental health concerns would encourage more students to seek help.,medium,2024-06-25
+FB0344,MBA,8,academics,Online resources shared by the faculty are very useful for self-study.,high,2025-05-11
+FB0345,MBA,1,mental_health,The college should increase the number of trained counsellors to reduce waiting times.,low,2025-01-07
+FB0346,MBA,6,canteen,Food served during evening hours is often left over from lunch and not fresh.,medium,2024-12-05
+FB0347,Arts,1,academics,Online resources shared by the faculty are very useful for self-study.,high,2024-09-08
+FB0348,MBA,2,wifi,"Network authentication resets too frequently, requiring repeated logins.",high,2025-01-17
+FB0349,ECE,3,library,Digital journal subscriptions are insufficient and many research papers are behind paywalls.,medium,2024-12-09
+FB0350,BBA,3,wifi,Internet speed in the academic block has improved noticeably after the upgrade.,high,2025-02-16
+FB0351,CSE,1,administration,"Fee payment portal crashes frequently near the deadline, causing anxiety.",low,2025-06-01
+FB0352,Science,8,wifi,The campus network blocks many educational websites without justification.,high,2025-02-19
+FB0353,BBA,6,canteen,Prices for basic meals have increased without a corresponding quality improvement.,medium,2025-04-12
+FB0354,BBA,8,library,The air conditioning in the library is too cold and makes it difficult to study for long.,high,2024-11-01
+FB0355,CSE,6,mental_health,A dedicated quiet room for students experiencing anxiety would be very beneficial.,high,2024-07-27
+FB0356,MBA,1,administration,The new digital student portal streamlines document requests significantly.,medium,2024-10-14
+FB0357,CSE,8,sports,The badminton courts are well-maintained and available for booking online.,high,2025-04-19
+FB0358,ME,4,administration,"Fee payment portal crashes frequently near the deadline, causing anxiety.",high,2025-05-25
+FB0359,CE,1,hostel,Beds and mattresses in the new wing are comfortable and recently replaced.,medium,2025-01-01
+FB0360,Arts,4,canteen,"Tea and coffee counters open too late, which is inconvenient for early-morning students.",high,2025-04-10
+FB0361,CSE,3,mental_health,The workload in certain departments is unsustainable and contributes to burnout.,low,2025-03-15
+FB0362,Science,7,wifi,The VPN policy restricts access to certain research databases students need.,low,2025-01-22
+FB0363,BBA,5,wifi,Campus network downtime over the weekend is unacceptable for students with assignments due.,medium,2024-09-07
+FB0364,MBA,5,sports,Inter-department sports events should be organized more frequently.,medium,2025-06-30
+FB0365,CE,8,library,Extended library hours during exam weeks are greatly appreciated.,medium,2024-11-26
+FB0366,MBA,2,library,Group study rooms in the library are in high demand and should be increased.,high,2025-03-06
+FB0367,Arts,6,administration,Emergency fund assistance for economically challenged students needs a simpler process.,low,2024-10-27
+FB0368,MBA,2,academics,Elective course options are limited and do not cover emerging technologies.,medium,2025-05-02
+FB0369,Science,4,library,Library staff are helpful in locating resources and suggesting alternatives.,high,2024-10-17
+FB0370,ME,2,library,Group study rooms in the library are in high demand and should be increased.,high,2025-03-28
+FB0371,CE,1,sports,Equipment booking system for the gym is disorganized and often causes conflicts.,high,2024-09-24
+FB0372,CSE,2,sports,Timings for sports facilities are too restrictive and do not suit academic schedules.,medium,2025-06-03
+FB0373,ECE,3,mental_health,The counselling center wait times are too long; students in distress need faster access.,high,2024-08-20
+FB0374,Science,8,administration,Re-evaluation applications are unnecessarily expensive and discourage students.,low,2025-06-23
+FB0375,BBA,5,library,Noise levels in certain sections of the library are distracting.,low,2025-06-29
+FB0376,CE,1,hostel,Pest control measures in the kitchen area are inadequate.,low,2024-12-31
+FB0377,CSE,7,canteen,Food served during evening hours is often left over from lunch and not fresh.,medium,2024-09-04
+FB0378,CSE,1,library,The online catalogue system is slow and often crashes during peak usage.,high,2025-04-05
+FB0379,BBA,5,hostel,Beds and mattresses in the new wing are comfortable and recently replaced.,high,2025-03-06
+FB0380,ME,8,mental_health,The campus counsellor is empathetic and keeps sessions strictly confidential.,low,2024-07-28
+FB0381,ME,8,wifi,The IT helpdesk response time for network issues exceeds 48 hours on average.,medium,2025-06-03
+FB0382,CSE,6,canteen,Food served during evening hours is often left over from lunch and not fresh.,medium,2025-03-18
+FB0383,ME,7,sports,Yoga and fitness classes offered on weekends are popular and should be expanded.,medium,2025-02-19
+FB0384,ECE,7,wifi,The IT helpdesk response time for network issues exceeds 48 hours on average.,low,2024-09-03
+FB0385,Science,6,canteen,Special dietary needs such as gluten-free options are not catered for.,low,2024-06-04
+FB0386,Arts,4,library,The printing facility in the library is unreliable and expensive.,medium,2024-11-16
+FB0387,CSE,5,library,Noise levels in certain sections of the library are distracting.,medium,2025-05-21
+FB0388,CSE,2,sports,The swimming pool was closed for maintenance for three months with no alternative arrangement.,medium,2024-08-21
+FB0389,MBA,2,administration,Re-evaluation applications are unnecessarily expensive and discourage students.,medium,2024-12-06
+FB0390,CE,3,sports,The swimming pool was closed for maintenance for three months with no alternative arrangement.,low,2025-01-19
+FB0391,Arts,8,wifi,"Upload speeds are significantly lower than download speeds, affecting online submissions.",high,2025-05-07
+FB0392,CE,2,sports,Sports achievements are celebrated in college events which motivates participation.,medium,2025-02-26
+FB0393,ECE,2,wifi,Wi-Fi connectivity in the hostel is extremely slow during evening hours.,high,2025-02-14
+FB0394,ME,3,sports,Coaching sessions for cricket are helpful and the coach is knowledgeable.,high,2025-01-13
+FB0395,CE,8,hostel,Room cleanliness inspections are infrequent and hygiene standards have dropped.,high,2025-01-15
+FB0396,Science,3,academics,The grading rubric for project submissions is unclear and subjective.,medium,2025-01-20
+FB0397,Science,5,academics,The curriculum should include more industry-relevant case studies.,low,2024-12-20
+FB0398,CSE,4,library,Group study rooms in the library are in high demand and should be increased.,low,2024-06-24
+FB0399,BBA,2,administration,Exam hall allotment notices are released too close to the examination date.,low,2024-07-06
+FB0400,CSE,5,mental_health,Mental health awareness week activities were engaging and informative.,low,2025-06-29
