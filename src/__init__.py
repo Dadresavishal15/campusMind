@@ -1,0 +1,1 @@
+# CampusMind source package
