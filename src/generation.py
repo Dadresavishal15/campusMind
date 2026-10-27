@@ -28,28 +28,10 @@ _RAG_SYSTEM_INSTRUCTION = (
 )
 
 
-def get_llm_client(model_name: str = _DEFAULT_MODEL):
+def get_llm_client(model_name: str = None):
     """
     Create and return a configured Google Gemini GenerativeModel client.
-
-    Reads ``GEMINI_API_KEY`` from the environment (loaded via python-dotenv).
-
-    Parameters
-    ----------
-    model_name : str
-        Gemini model identifier. Defaults to ``'gemini-1.5-flash'``.
-
-    Returns
-    -------
-    google.generativeai.GenerativeModel
-        Configured Gemini client.
-
-    Raises
-    ------
-    EnvironmentError
-        If ``GEMINI_API_KEY`` is not set.
-    ImportError
-        If ``google-generativeai`` is not installed.
+    Automatically discovers and uses an active model that supports generateContent.
     """
     try:
         import google.generativeai as genai
@@ -75,29 +57,80 @@ def get_llm_client(model_name: str = _DEFAULT_MODEL):
         )
 
     genai.configure(api_key=api_key)
-    model = genai.GenerativeModel(
-        model_name=model_name,
-        system_instruction=_RAG_SYSTEM_INSTRUCTION,
-    )
-    logger.info("Gemini client initialised with model: %s", model_name)
+
+    chosen_model = model_name
+    if not chosen_model:
+        try:
+            supported = [
+                m.name for m in genai.list_models()
+                if "generateContent" in getattr(m, "supported_generation_methods", [])
+            ]
+            flash_models = [m for m in supported if "flash" in m]
+            if flash_models:
+                chosen_model = flash_models[0]
+            elif supported:
+                chosen_model = supported[0]
+        except Exception as exc:
+            logger.warning("Dynamic model discovery failed: %s", exc)
+
+    if not chosen_model:
+        chosen_model = "gemini-1.5-flash-latest"
+
+    try:
+        model = genai.GenerativeModel(
+            model_name=chosen_model,
+            system_instruction=_RAG_SYSTEM_INSTRUCTION,
+        )
+    except Exception:
+        model = genai.GenerativeModel(model_name=chosen_model)
+
+    logger.info("Gemini client initialised with model: %s", chosen_model)
     return model
+
+
+def _generate_with_fallback(prompt: str, client, system_instruction: str = _RAG_SYSTEM_INSTRUCTION) -> str:
+    """Execute content generation with automatic model fallback if 404 occurs."""
+    try:
+        response = client.generate_content(prompt)
+        return response.text.strip()
+    except Exception as exc:
+        err_str = str(exc).lower()
+        if "404" in err_str or "not found" in err_str or "not supported" in err_str:
+            import google.generativeai as genai
+            discovered = []
+            try:
+                for m in genai.list_models():
+                    if "generateContent" in getattr(m, "supported_generation_methods", []):
+                        discovered.append(m.name)
+            except Exception:
+                pass
+
+            candidates = discovered + [
+                "gemini-1.5-flash-latest",
+                "gemini-1.5-pro",
+                "gemini-1.5-pro-latest",
+                "gemini-2.0-flash-exp",
+                "gemini-pro",
+            ]
+            for cand in candidates:
+                try:
+                    try:
+                        fallback_model = genai.GenerativeModel(
+                            model_name=cand,
+                            system_instruction=system_instruction,
+                        )
+                    except Exception:
+                        fallback_model = genai.GenerativeModel(model_name=cand)
+                    res = fallback_model.generate_content(prompt)
+                    return res.text.strip()
+                except Exception:
+                    continue
+        raise exc
 
 
 def build_rag_prompt(question: str, context: str) -> str:
     """
     Build a RAG prompt combining the retrieved context and user question.
-
-    Parameters
-    ----------
-    question : str
-        The user's natural-language question.
-    context : str
-        Formatted string of retrieved feedback records.
-
-    Returns
-    -------
-    str
-        Full prompt string to send to the LLM.
     """
     prompt = (
         f"## Student Feedback Context\n\n"
@@ -116,26 +149,11 @@ def build_rag_prompt(question: str, context: str) -> str:
 def generate_answer(question: str, context: str, client) -> str:
     """
     Generate an answer to a question using the RAG prompt.
-
-    Parameters
-    ----------
-    question : str
-        The user's question.
-    context : str
-        Formatted retrieval context.
-    client : google.generativeai.GenerativeModel
-        Initialised Gemini client.
-
-    Returns
-    -------
-    str
-        Generated answer text.
     """
     prompt = build_rag_prompt(question, context)
     try:
-        response = client.generate_content(prompt)
-        return response.text.strip()
-    except Exception as exc:  # noqa: BLE001
+        return _generate_with_fallback(prompt, client)
+    except Exception as exc:
         logger.error("Gemini generate_answer failed: %s", exc)
         return f"Error generating answer: {exc}"
 
@@ -143,25 +161,11 @@ def generate_answer(question: str, context: str, client) -> str:
 def generate_summary(category: str, feedback_items: List[str], client) -> str:
     """
     Generate a summary of feedback items for a given category.
-
-    Parameters
-    ----------
-    category : str
-        The feedback category (e.g. ``'canteen'``).
-    feedback_items : list of str
-        List of raw feedback text strings for that category.
-    client : google.generativeai.GenerativeModel
-        Initialised Gemini client.
-
-    Returns
-    -------
-    str
-        Concise summary of the category's feedback.
     """
     if not feedback_items:
         return f"No feedback available for category: {category}."
 
-    bullets = "\n".join(f"- {item}" for item in feedback_items[:30])  # cap at 30
+    bullets = "\n".join(f"- {item}" for item in feedback_items[:30])
     prompt = (
         f"The following are student feedback items for the '{category}' category "
         f"at a college campus:\n\n"
@@ -171,9 +175,8 @@ def generate_summary(category: str, feedback_items: List[str], client) -> str:
         f"Base your summary ONLY on the feedback above."
     )
     try:
-        response = client.generate_content(prompt)
-        return response.text.strip()
-    except Exception as exc:  # noqa: BLE001
+        return _generate_with_fallback(prompt, client)
+    except Exception as exc:
         logger.error("Gemini generate_summary failed: %s", exc)
         return f"Error generating summary: {exc}"
 
@@ -181,18 +184,6 @@ def generate_summary(category: str, feedback_items: List[str], client) -> str:
 def generate_recommendations(summary: str, client) -> str:
     """
     Generate actionable recommendations based on a feedback summary.
-
-    Parameters
-    ----------
-    summary : str
-        Category summary text produced by :func:`generate_summary`.
-    client : google.generativeai.GenerativeModel
-        Initialised Gemini client.
-
-    Returns
-    -------
-    str
-        Numbered list of concrete recommendations.
     """
     prompt = (
         f"Based on the following summary of student feedback:\n\n"
@@ -202,9 +193,8 @@ def generate_recommendations(summary: str, client) -> str:
         f"Be concrete and realistic."
     )
     try:
-        response = client.generate_content(prompt)
-        return response.text.strip()
-    except Exception as exc:  # noqa: BLE001
+        return _generate_with_fallback(prompt, client)
+    except Exception as exc:
         logger.error("Gemini generate_recommendations failed: %s", exc)
         return f"Error generating recommendations: {exc}"
 
